@@ -17,3 +17,6 @@ git remote add origin https://github.com/<username>/<repo>.git
 # Push to GitHub
 git branch -M main
 git push -u origin main
+git add app.py
+git commit -m "Add Streamlit app"
+git push origin main
